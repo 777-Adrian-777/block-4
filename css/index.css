@@ -1,0 +1,593 @@
+:root {
+    --main-color: white;
+    --back-color: #261e1c;
+    --orange-color: #c8693a;
+    --black-color: black;
+    scroll-behavior: smooth;
+    --parta: font-family: 'Prata' sherif;
+}
+
+
+
+.body{
+    background-color: #261e1c;
+}
+
+
+
+.testimotials {
+    font-family: 'Krona One', sans-serif;
+}  
+
+.testimotials h1{
+    font-family: 'Dancing Script', cursive;
+    color: orange;
+} 
+
+.testimotials hr {
+    max-width: 980px;
+}
+
+
+.shipping {
+    max-width: 980px;
+    margin: auto;
+    display:flex;
+    justify-content: space-around;
+
+}
+
+
+.back {
+    background-color: #261e1c;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    max-width: 980px;
+    margin: auto;
+}
+
+
+.testimotials {
+    text-align: center;
+    color: white;
+
+
+}
+
+.slider{
+    max-width: 90%;
+    position: relative;
+    margin: 80px auto;
+    height: 300px;
+    margin-bottom: 15px;
+}
+
+
+.slider .item img {
+    object-fit: cover;
+    width: 100%;
+    height: 300px;
+    border: none;
+    box-shadow: none;
+}
+
+.slider .prev, .slider .next {
+    cursor: pointer;
+    display: block;
+    float: center;
+    position: absolute;
+    top: 0;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+.slider .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.slider .prev:hover,
+.slider .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.slider-dots {
+    text-align: center;
+}
+.slider-dots_item{
+    cursor: pointer;
+    height: 12px;
+    width: 12px;
+    margin: 0 2px;
+    background-color: #ddd;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active,
+.slider-dots_item:hover {
+    background-color: #aaa;
+}
+
+.pattern {
+    float: center;
+    padding-left: 50px;
+    padding-top: 10px;
+    min-width: 30px;
+    min-height: 30px;
+}
+
+.question h1 {
+    margin: auto;
+    font-family: 'Dancing Script', cursive;
+    color: orange;
+
+}
+
+.question h2 {
+    margin: auto;
+    font-family: 'Krona One', sans-serif;
+
+}
+
+.question li p {
+    text-align: initial;
+    font-family: 'Original Surfer', cursive;
+
+}
+
+.wine {
+    float: right;
+    padding-top: 70px;
+    padding-right: 70px;
+    padding-left: 40px;
+    min-width: 300px;
+    min-height: 300px;
+
+}
+
+.wine:hover {
+    transform: scale(1.05);
+
+}
+
+
+.question li p:hover {
+    transform: scale(1.05);
+    font-family: 'Original Surfer', cursive;
+}
+
+.question li p:hover {
+    text-align: initial;
+    color: orange;
+    text-decoration: none;
+
+}
+
+.question  {
+ margin: 50px;
+}
+
+.wine {
+    padding-right: 100px;
+    float: right;
+    max-width: 250px;
+    max-height: 400px;
+}
+
+
+.shipping-1{
+  display: flex;
+  justify-content: space-around
+}
+
+
+
+.delivery { 
+    margin: 50px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    background: url(../img/delivery.jpg) top 50px left 50px no-repeat;
+    background-size: 250px 200px;
+    min-width: 300px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.8);
+    width: 300px;
+    height: 250px;
+    padding-top: 250px;
+    padding-left: 40px;
+    transition: 0.5s;
+}
+
+.delivery p {
+    margin-right: 40px;
+    text-align: center;
+    font-family: 'Original Surfer', cursive;
+}
+   
+
+
+.delivery h2 {
+    margin-right: 40px;
+    text-align: center;
+    font-family: 'Krona One', sans-serif;
+
+   
+}
+
+@media (max-width:767px){
+    .delivery { 
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        background: url(img/delivery.jpg);
+        background-size: 100% auto;
+        min-width: 400px;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+}
+
+@media (max-width:480px) {
+    .delivery {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        min-width: 300px;
+        box-shadow: 5px 5px 10px rgba(0,0,0,0.8);   
+        align-items: center;
+    }
+}
+
+
+.delivery:hover {
+    transform: scale(1.1);
+    font-family: 'Original Surfer', cursive;
+}
+    
+
+
+.delivery p {
+    text-align: center;
+    font-family: 'Original Surfer', cursive;
+}
+
+
+.delivery img {
+    display: block;
+
+}
+
+
+
+.secure {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    background: url(../img/secure-payment.jpg) top 50px left 50px no-repeat;
+    background-size: 250px 200px;
+    min-width: 300px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.8);
+    width: 300px;
+    height: 250px;
+    padding-top: 250px;
+    padding-left: 40px;
+    transition: 0.5s;
+}
+
+@media (max-width:767px){
+    .secure { 
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        background: url(../img/secure-payment.jpg);
+        background-size: 100% auto;
+        min-width: 600px;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+}
+
+@media (max-width:480px) {
+    .secure {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        min-width: 300px;
+        box-shadow: 5px 5px 10px rgba(0,0,0,0.8);   
+        align-items: center;
+    }
+}
+
+.secure:hover {
+    transform: scale(1.1);
+}
+.secure {
+    margin: 50px;
+}
+.secure p {
+    margin-right: 40px;
+    text-align: center; 
+    font-family: 'Original Surfer', cursive;
+
+}
+
+.secure h2 {
+    margin-right: 40px;
+    text-align: center;
+    font-family: 'Krona One', sans-serif;
+}
+
+.eco-friendly {
+    margin: 50px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    background: url(../img/eco-friendly.jpg) top 50px left 50px no-repeat;
+    background-size: 250px 200px;
+    min-width: 300px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.8);
+    width: 300px;
+    height: 250px;
+    padding-top: 250px;
+    padding-left: 40px;
+    transition: 0.5s;
+}
+
+@media (max-width:767px){
+    .eco-friendly { 
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        background: url(../img/eco-friendly.jpg);
+        background-size: 100% auto;
+        min-width: 600px;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+}
+
+@media (max-width:480px) {
+    .eco-friendly {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        min-width: 300px;
+        box-shadow: 5px 5px 10px rgba(0,0,0,0.8);   
+        align-items: center;
+    }
+}
+
+.eco-friendly:hover {
+    transform: scale(1.1);
+}
+
+.eco-friendly p {
+    margin-right: 40px;
+    text-align: center; 
+    font-family: 'Original Surfer', cursive;
+}
+
+.eco-friendly h2 {
+    margin-right: 40px;
+    text-align: center;
+    font-family: 'Krona One', sans-serif;
+   
+}
+
+.discount {
+    margin: 50px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    background: url(../img/DISCOUNT.png) top 50px left 50px no-repeat;
+    background-size: 250px 200px;
+    min-width: 300px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.8);
+    width: 300px;
+    height: 250px;
+    padding-top: 250px;
+    padding-left: 40px;
+    transition: 0.5s;
+}
+
+@media (max-width:767px){
+    .discount { 
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        background: url();
+        background-size: 100% auto;
+        min-width: 600px;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+}
+
+@media (max-width:480px) {
+    .discount {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        min-width: 300px;
+        box-shadow: 5px 5px 10px rgba(0,0,0,0.8);   
+        align-items: center;
+    }
+}
+
+.discount:hover {
+    transform: scale(1.1);
+}
+
+.discount h2 {
+    margin-right: 40px;
+    text-align: center;
+    font-family: 'Krona One', sans-serif;
+}
+
+.discount p {
+    margin-right: 40px;
+    text-align: center;
+    font-family: 'Original Surfer', cursive;
+}
+
+.form-ending {
+    margin: 50px;
+}
+
+.contact {
+    margin: 50px;
+}
+
+.contact p {
+    text-align: left;
+}
+
+.information {
+    margin: 50px;
+}
+
+.information p {
+    text-align: left;
+}
+
+.shops {
+    margin: 50px;
+}
+
+.shops p {
+    text-align: left;
+}
+
+/*.ending {
+    background-color: #4F322C;
+}*/
+.form-ending {
+    align-items: center;
+    margin: auto;
+    background-color: #261e1c;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+/*.join {
+     background-color: #4F322C;
+
+}*/
+.join h2{
+    font-family: 'Dancing Script', cursive;
+    color: orange;
+    margin: 100px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+}
+
+.join h3{
+    margin: 100px;
+    margin-bottom: 50px;
+    margin-top: 3px;
+
+}
+
+.join h4 {
+    margin: 100px;
+    margin-bottom: 50px;
+    margin-top: 3px;
+
+}
+
+
+.join img {
+    margin: 100px;
+    margin-bottom: 50px;
+    width: 200px;
+    height: 150px;
+
+}
+
+.join img:hover {
+    transform: scale(1.1);
+
+}
+
+.join form {
+    margin: 100px;
+    margin-bottom: 50px;
+    width: 200px;
+    height: 150px;
+
+}
+
+.contact h2 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.email {
+    background-color:white;
+    margin-top: 20px;
+    width: 400px;
+    height: 50px; 
+    color:black;
+    font-family: 'Courier New', Courier, monospace; 
+}
+
+.submit {
+    background-color: orange;
+    margin-top: 30px;
+    margin-right: 100px;
+    width: 200px;
+    height: 50px;
+    color:black;
+    font-family: 'Courier New', Courier, monospace; 
+}
+
+.footer-ending {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact .information .shops {
+    margin-right: 50px;
+    width: 150px;
+    
+}
+
+.contact h2{
+    font-family: 'Krona One', sans-serif;
+}
+.contact p {
+    text-decoration: none;
+    color: orange;
+    font-family: 'Original Surfer', cursive;
+}
+
+.information h2{
+    font-family: 'Krona One', sans-serif;
+}
+
+.information a {
+    color: orange;
+    text-decoration: none;
+    font-family: 'Original Surfer', cursive;
+}
+
+
+.shops h2{
+    font-family: 'Krona One', sans-serif;
+
+}
+.shops a {
+    color: orange;
+    text-decoration: none;
+    font-family: 'Original Surfer', cursive;
+
+}
+

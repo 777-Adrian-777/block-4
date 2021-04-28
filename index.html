@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Wine Store Website Template</title>
+        <link rel="stylesheet" href="carousel.css" />
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Original+Surfer&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&display=swap" rel="stylesheet">
+        <script src="js/carousel.js"></script>
+    <body>
+      <div class="back">
+        <section class="testimotials">
+            <h1>Testimonials</h1>
+            <h2>What Our Wine-Lovers Say</h2>
+            <img src="img/pattern.svg" alt="pattern">
+            <p class="subheading">Wine is a bottled poetry. Read some stories from our customers below.</p>
+            <div class="slider">
+                <div class="item">
+                    <p>"Our restaurant has been cooperating with this winery for over 10 years. We order the whole range of wines from them. We are completely satisfied with the quality of the wine supplied to us. And our guests often choose CaliWines from our wine menu."</p>
+                </div>
+                <div class="item">
+                  <p>“I really like to please myself with good wine with a rich taste. Therefore, from time to time, I order wine directly from the CaliWines winery. I also buy Chardonnay and Cabernet  for family holidays. We are completely delighted with the amazing taste of these wines, which we want to enjoy endlessly.”</p>
+                </div>
+                <div class="item">
+                  <p>“We were to hold a responsible event with a buffet table and wanted to surprise our guests with some local products. I recalled that we have the CaliWines winery in California and ordered 10 bottles of Chardonnay. Our guests were delighted and asked for the name of the producer!”</p>
+                </div>
+                <a class="prev" onclick="minusSlide()">&#10094;</a>
+                <a class="next" onclick="plusSlide()">&#10095;</a>
+              <div class="slider-dots">
+                <span class="slider-dots_item" onclick="currentSlide(1)"></span> 
+                <span class="slider-dots_item" onclick="currentSlide(2)"></span> 
+                <span class="slider-dots_item" onclick="currentSlide(3)"></span> 
+              </div>
+                </button>
+              </div>
+        </section>
+        <section class="question">
+            <img class="wine" src="img/wine.jpg" alt="Wine">
+            <h1>HaQ</h1>
+            <h2>Have a Question?</h2>
+            <img class="pattern" src="img/pattern.svg" alt="pattern">
+            <ul> 
+                <li><h2>Are you a wholesale wine supplier?</h2> 
+                <p>Our winery produces craft wine. Bulk orders are possible, but lots cannot be large.</p></li>
+                <li><h2>Do you ship wine within the USA?</h2> 
+                <p>Yes, we ship your orders to any state and city in the United States, as well as abroad.</p></li>
+                <li><h2>How many varieties are there in your winery?</h2> 
+                <p>Our winery offers wine-lovers more than 10 different varieties of wines with different aging periods.</p></li>
+                <li><h2>Do you advise on the choice of wine?</h2>
+                <p>Yes. Our winery experts will tell you more about the varieties and help you choose the best option for you.</p></li>
+                <li><h2>Where are your vineyards located?</h2>  
+                <p>We are located in the Napa Valley, America's most famous wine region.</p></li>
+                <br><br>
+             </ul>
+        </section>
+        <div class="shipping">
+        <section class="delivery">
+            <h2>Fast & Free Shipping</h2>
+            <p>We offer free delivery
+               to any American city 
+               and abroad for all
+               orders over $99.</p>
+        </section>
+        <section class="secure">
+            <h2>Secure Payments</h2>
+            <p>We accept Visa and MasterCard,
+               payment methods.</p>
+         </section>
+         </div>
+         <div class="shipping-1">
+         <section class="eco-friendly">
+            <h2>Eco-Friendly</h2>
+            <p>We do not use chemical additives or
+               aggressive fertilizers. Our wines
+               are 100% organic.</p>
+        </section>
+        <section class="discount">
+            <h2>Discount System</h2>
+            <p>Sign up to get a 15% discount on
+               your next order and get advantage
+               of our special offers.</p>
+        </section>
+        </div>
+        <div class="ending">
+          <div class="form-ending">
+              <section class="join">
+                    <img class="join" src="img/join.jpg" alt="pattern">
+                    <h2>Join</h2>
+                    <h3>Join Our Newsletter Now</h3>
+                    <h4>Learn more about wines and our special offers with our weekly digests.</h4>
+                    <form class="send" action="https://formspree.io/f/xyylywkv" method="POST">
+                       <label>
+                          <input class="email" type="email" name="user-email" placeholder="Enter your email here" required>
+                       </label>
+                          <input class="submit" type="submit">
+                   </form>
+        </section>
+        </div>
+            <div class="footer-ending">
+                <section class="contact">
+                    <h2>Contact us</h2>
+                    <p>caliwines@email.com</p>
+                    <p>+1 (234) 567 89 00</p>
+                    <p>1111 White Ln,</p> 
+                    <p>St Helena, CA 94574</p>
+                </section>
+                <section class="information">
+                    <h2>Information</h2>
+                    <p><a href="#">History</a></p>
+                    <p><a href="#">About us</a></p>
+                    <p><a href="#">Awards</a></p>
+                    <p><a href="#">FAQ</a></p>
+                </section>
+                <section class="shops">
+                    <h2>Shop</h2>
+                    <p><a href="#">Best deals</a></p>
+                    <p><a href="#">All wines</a></p>
+                    <p><a href="#">Delivery information</a></p>
+                    <p><a href="#">Terms & Conditions</a></p>
+                </section>
+            </div>
+         </div>
+    </div>
+            <!--4st block ending-->
+          </main>
+    </body>
+</html>
